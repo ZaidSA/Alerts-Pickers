@@ -57,6 +57,7 @@ final public class PickerViewViewController: UIViewController {
         super.viewWillAppear(true)
         if let initialSelection = initialSelection, values.count > initialSelection.column, values[initialSelection.column].count > initialSelection.row {
             pickerView.selectRow(initialSelection.row, inComponent: initialSelection.column, animated: true)
+            pickerView(pickerView, didSelectRow: 0, inComponent: 0)
         }
     }
 }

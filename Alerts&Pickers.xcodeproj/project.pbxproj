@@ -51,7 +51,6 @@
 		65CFE79B21EBDE5600A51361 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFAA69200D470800961895 /* TextViewController.swift */; };
 		65CFE79C21EBDE5600A51361 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2942008B46600E06F8F /* Array+Extensions.swift */; };
 		65CFE79D21EBDE5600A51361 /* Common+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB29E2008B46600E06F8F /* Common+Extensions.swift */; };
-		65CFE79E21EBDE5600A51361 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2972008B46600E06F8F /* Date+Extension.swift */; };
 		65CFE79F21EBDE5600A51361 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7950F50217216CC005822F1 /* Bundle+Extensions.swift */; };
 		65CFE7A021EBDE5600A51361 /* Locale+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB29F2008B46600E06F8F /* Locale+Extensions.swift */; };
 		65CFE7A121EBDE5600A51361 /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB29D2008B46600E06F8F /* Optional+Extensions.swift */; };
@@ -75,7 +74,6 @@
 		65CFE7B321EBDE5600A51361 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA005E912015D769001EA8C6 /* Contacts.swift */; };
 		65CFE7B421EBDE5600A51361 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA005E9720166D51001EA8C6 /* Contact.swift */; };
 		65CFE7B521EBDE5600A51361 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B0378201A82FC00D282E2 /* ContactCell.swift */; };
-		65CFE7B621EBDE5600A51361 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A32008B46800E06F8F /* DatePickerViewController.swift */; };
 		65CFE7B721EBDE5600A51361 /* ItemWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB5C9F201BD4B000CCE04D /* ItemWithImage.swift */; };
 		65CFE7B821EBDE5600A51361 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A42008B46800E06F8F /* ImagePickerViewController.swift */; };
 		65CFE7B921EBDE5600A51361 /* Countries.bundle in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A22008B46800E06F8F /* Countries.bundle */; };
@@ -183,7 +181,6 @@
 		FA3BB2B12008B46800E06F8F /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2922008B46500E06F8F /* TextField.swift */; };
 		FA3BB2B22008B46800E06F8F /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2942008B46600E06F8F /* Array+Extensions.swift */; };
 		FA3BB2B32008B46800E06F8F /* UISegmentedControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2952008B46600E06F8F /* UISegmentedControl+Extensions.swift */; };
-		FA3BB2B52008B46800E06F8F /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2972008B46600E06F8F /* Date+Extension.swift */; };
 		FA3BB2B62008B46800E06F8F /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2982008B46600E06F8F /* String+Extensions.swift */; };
 		FA3BB2B72008B46800E06F8F /* UITextView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2992008B46600E06F8F /* UITextView+Extensions.swift */; };
 		FA3BB2B82008B46900E06F8F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB29A2008B46600E06F8F /* UIColor+Extensions.swift */; };
@@ -194,7 +191,6 @@
 		FA3BB2BD2008B46900E06F8F /* Locale+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB29F2008B46600E06F8F /* Locale+Extensions.swift */; };
 		FA3BB2BE2008B46900E06F8F /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A02008B46600E06F8F /* UITextField+Extensions.swift */; };
 		FA3BB2BF2008B46900E06F8F /* Countries.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA3BB2A22008B46800E06F8F /* Countries.bundle */; };
-		FA3BB2C02008B46900E06F8F /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A32008B46800E06F8F /* DatePickerViewController.swift */; };
 		FA3BB2C12008B46900E06F8F /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A42008B46800E06F8F /* ImagePickerViewController.swift */; };
 		FA3BB2C22008B46900E06F8F /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A52008B46800E06F8F /* PickerViewViewController.swift */; };
 		FA3BB2C32008B46900E06F8F /* LocalePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BB2A62008B46800E06F8F /* LocalePickerViewController.swift */; };
@@ -309,7 +305,6 @@
 		FA3BB2922008B46500E06F8F /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		FA3BB2942008B46600E06F8F /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		FA3BB2952008B46600E06F8F /* UISegmentedControl+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extensions.swift"; sourceTree = "<group>"; };
-		FA3BB2972008B46600E06F8F /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		FA3BB2982008B46600E06F8F /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		FA3BB2992008B46600E06F8F /* UITextView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extensions.swift"; sourceTree = "<group>"; };
 		FA3BB29A2008B46600E06F8F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
@@ -320,7 +315,6 @@
 		FA3BB29F2008B46600E06F8F /* Locale+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Locale+Extensions.swift"; sourceTree = "<group>"; };
 		FA3BB2A02008B46600E06F8F /* UITextField+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		FA3BB2A22008B46800E06F8F /* Countries.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Countries.bundle; sourceTree = "<group>"; };
-		FA3BB2A32008B46800E06F8F /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		FA3BB2A42008B46800E06F8F /* ImagePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
 		FA3BB2A52008B46800E06F8F /* PickerViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
 		FA3BB2A62008B46800E06F8F /* LocalePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalePickerViewController.swift; sourceTree = "<group>"; };
@@ -526,7 +520,6 @@
 			children = (
 				FA3BB2942008B46600E06F8F /* Array+Extensions.swift */,
 				FA3BB29E2008B46600E06F8F /* Common+Extensions.swift */,
-				FA3BB2972008B46600E06F8F /* Date+Extension.swift */,
 				D7950F50217216CC005822F1 /* Bundle+Extensions.swift */,
 				FA3BB29F2008B46600E06F8F /* Locale+Extensions.swift */,
 				FA3BB29D2008B46600E06F8F /* Optional+Extensions.swift */,
@@ -757,7 +750,6 @@
 		FAAB5C95201BCC8D00CCE04D /* Date */ = {
 			isa = PBXGroup;
 			children = (
-				FA3BB2A32008B46800E06F8F /* DatePickerViewController.swift */,
 			);
 			path = Date;
 			sourceTree = "<group>";
@@ -988,7 +980,6 @@
 				65CFE79B21EBDE5600A51361 /* TextViewController.swift in Sources */,
 				65CFE79C21EBDE5600A51361 /* Array+Extensions.swift in Sources */,
 				65CFE79D21EBDE5600A51361 /* Common+Extensions.swift in Sources */,
-				65CFE79E21EBDE5600A51361 /* Date+Extension.swift in Sources */,
 				65CFE79F21EBDE5600A51361 /* Bundle+Extensions.swift in Sources */,
 				65CFE7A021EBDE5600A51361 /* Locale+Extensions.swift in Sources */,
 				65CFE7A121EBDE5600A51361 /* Optional+Extensions.swift in Sources */,
@@ -1012,7 +1003,6 @@
 				65CFE7B321EBDE5600A51361 /* Contacts.swift in Sources */,
 				65CFE7B421EBDE5600A51361 /* Contact.swift in Sources */,
 				65CFE7B521EBDE5600A51361 /* ContactCell.swift in Sources */,
-				65CFE7B621EBDE5600A51361 /* DatePickerViewController.swift in Sources */,
 				65CFE7B721EBDE5600A51361 /* ItemWithImage.swift in Sources */,
 				65CFE7B821EBDE5600A51361 /* ImagePickerViewController.swift in Sources */,
 				65CFE7B921EBDE5600A51361 /* Countries.bundle in Sources */,
@@ -1138,8 +1128,6 @@
 				FA005E942015E490001EA8C6 /* UISearchBar+Extensions.swift in Sources */,
 				F27C7E3F21771E5300266414 /* UIView.swift in Sources */,
 				F27C7E5721771E5300266414 /* ImageFadeInHandler.swift in Sources */,
-				FA3BB2B52008B46800E06F8F /* Date+Extension.swift in Sources */,
-				FA3BB2C02008B46900E06F8F /* DatePickerViewController.swift in Sources */,
 				FA4B036C201A119C00D282E2 /* Location.swift in Sources */,
 				FA3BB2AF2008B46800E06F8F /* Label.swift in Sources */,
 				FA005E9620162BB5001EA8C6 /* Assets.swift in Sources */,
